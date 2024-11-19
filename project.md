@@ -1,4 +1,4 @@
-## My Project
+## Final Project : Detecting Heart Disease with Random Forrest and Neural Network
 
 I applied machine learning techniques to investigate... Below is my report.
 
