@@ -1,10 +1,18 @@
-## Final Project : Detecting Heart Disease with Random Forrest and Neural Network
+# Final Project : Detecting Heart Disease with Random Forrest and Neural Network
 
-I applied machine learning techniques to investigate... Below is my report.
+Sattwik Banerjee
+
+Department of Atmospheric and Oceanic Sciences, UCLA
+
+AOS C111: Introduction to Machine Learning for the Physical Sciences
+
+Dr. Alexander Lozinski
+
+December 9, 2024
 
 ***
 
-## Introduction 
+# Introduction 
 
 Here is a summary description of the topic. Here is the problem. This is why the problem is important.
 
@@ -20,7 +28,7 @@ Here is an overview of the dataset, how it was obtained and the preprocessing st
 
 *Figure 1: Here is a caption for my diagram. This one shows a pengiun [1].*
 
-## Modelling
+# Modelling
 
 Here are some more details about the machine learning approach, and why this was deemed appropriate for the dataset. 
 
@@ -37,15 +45,15 @@ clf.predict([[0, 0, 0, 0]])
 
 This is how the method was developed.
 
-## Results
+# Results
 
 Figure X shows... [description of Figure X].
 
-## Discussion
+# Discussion
 
 From Figure X, one can see that... [interpretation of Figure X].
 
-## Conclusion
+# Conclusion
 
 Here is a brief summary. From this work, the following conclusions can be made:
 * first conclusion
@@ -53,7 +61,7 @@ Here is a brief summary. From this work, the following conclusions can be made:
 
 Here is how this work could be developed further in a future project.
 
-## References
+# References
 [1] DALL-E 3
 
 [back](./)
