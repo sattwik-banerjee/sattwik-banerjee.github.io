@@ -10,17 +10,12 @@ Dr. Alexander Lozinski
 
 December 9, 2024
 
-***
 
 # Introduction 
 
-Here is a summary description of the topic. Here is the problem. This is why the problem is important.
+Over the past few decades, poor health has risen to be widely acknowledged as one of the main causes of death worldwide and especially in the United States of America. Of the many potential chronic illnesses and diseases 
 
-There is some dataset that we can use to help solve this problem. This allows a machine learning approach. This is how I will solve the problem using supervised/unsupervised/reinforcement/etc. machine learning.
-
-We did this to solve the problem. We concluded that...
-
-## Data
+# Data
 
 Here is an overview of the dataset, how it was obtained and the preprocessing steps taken, with some plots!
 
