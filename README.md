@@ -139,6 +139,7 @@ After evaluating the models based on the three calculated metrics we see that in
 Future studies could build upon this and take the process one step further and apply Deep Learning Techniques to images of Hearts in combination with the development of a more accurate Machine Learning Model. Additionally, after more time has passed and more data has been accumulated, given more factors could lead to a more extensive analysis on important factors that have the most effect on a patient’s diagnosis.  
 
 # References
+
 [^1]: [Etudo, M. (2024, July 22). Heart attack age: Risk by age group. Medical News Today. https://www.medicalnewstoday.com/articles/heart-attack-age-range#:~:text=Statistics%20from%20the%20American%20Heart,attacks%20can%20happen%20to%20anyone](https://www.medicalnewstoday.com/articles/heart-attack-age-range)
 
 [^2]: [Jones, D. S., & Greene, J. A. (2013, July). The decline and rise of coronary heart disease: Understanding public health catastrophism. American Journal of Public Health. U.S. National Library of Medicine. https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/)
