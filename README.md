@@ -132,20 +132,20 @@ The individual performances of each model are exceptional as well as for the Ran
 
 # Conclusion
 
-Here is a brief summary. From this work, the following conclusions can be made:
-* first conclusion
-* second conclusion
+In this paper, various machine learning models were developed to determine whether a patient has heart disease depending on 13 features relating to each individual patient. The models selected to perform the Binary Classification task within this dataset were a Random Forest and an Artificial Neural Network. These models were developed using Python’s Scikit-Learn and Tensorflow libraries, and they were evaluated by utilizing the ROC Curve, Precision-Recall Curve, and the Root Mean Squared Error. 
 
-Here is how this work could be developed further in a future project.
+After evaluating the models based on the three calculated metrics we see that in comparison, the models performed very similarly. However, the Random Forest performed slightly better as can be seen in the previous Figures. The Figures show a greater overall accuracy and Area Under the Curve as well as Average Precision when compared to the Artificial Neural network although the Random Forest was slightly less accurate when comparing each model's RMSE value. An argument can be made for both models as all metrics demonstrate the success in each model’s performance in classifying heart disease. 
+
+Future studies could build upon this and take the process one step further and apply Deep Learning Techniques to images of Hearts in combination with the development of a more accurate Machine Learning Model. Additionally, after more time has passed and more data has been accumulated, given more factors could lead to a more extensive analysis on important factors that have the most effect on a patient’s diagnosis.  
 
 # References
-[1] Etudo, M. (2024, July 22). Heart attack age: Risk by age group. Medical News Today. https://www.medicalnewstoday.com/articles/heart-attack-age-range#:~:text=Statistics%20from%20the%20American%20Heart,attacks%20can%20happen%20to%20anyone
+[^1]: [Etudo, M. (2024, July 22). Heart attack age: Risk by age group. Medical News Today. https://www.medicalnewstoday.com/articles/heart-attack-age-range#:~:text=Statistics%20from%20the%20American%20Heart,attacks%20can%20happen%20to%20anyone](https://www.medicalnewstoday.com/articles/heart-attack-age-range)
 
-[2] Jones, D. S., & Greene, J. A. (2013, July). The decline and rise of coronary heart disease: Understanding public health catastrophism. American Journal of Public Health. U.S. National Library of Medicine. https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/
+[^2]: [Jones, D. S., & Greene, J. A. (2013, July). The decline and rise of coronary heart disease: Understanding public health catastrophism. American Journal of Public Health. U.S. National Library of Medicine. https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/)
 
-[3] Bhatt, C. M., Bansal, S., & Gupta, P. (2023, February 6). Effective heart disease prediction using machine learning techniques. MDPI. https://www.mdpi.com/1999-4893/16/2/88#:~:text=Using%20machine%20learning%20to%20classify,fatality%20caused%20by%20cardiovascular%20diseases
+[^3]: [Bhatt, C. M., Bansal, S., & Gupta, P. (2023, February 6). Effective heart disease prediction using machine learning techniques. MDPI. https://www.mdpi.com/1999-4893/16/2/88#:~:text=Using%20machine%20learning%20to%20classify,fatality%20caused%20by%20cardiovascular%20diseases](https://www.mdpi.com/1999-4893/16/2/88)
 
-[4] Our World in Data. (n.d.). Number of deaths from cardiovascular diseases by age. Our World in Data. https://ourworldindata.org/grapher/cardiovascular-disease-deaths-by-age. Accessed November 30, 2024.
+[^4]: [Our World in Data. (n.d.). Number of deaths from cardiovascular diseases by age. Our World in Data. https://ourworldindata.org/grapher/cardiovascular-disease-deaths-by-age. Accessed November 30, 2024.](https://ourworldindata.org/grapher/cardiovascular-disease-deaths-by-age)
 
 [back](./)
 
