@@ -50,7 +50,7 @@ After performing these steps the preprocessing stage has been completed and data
 
 ![](assets/it_plots.png){: width="800" }
 
-*Figure 1: Input and Target Data from the UCI Dataset [2].*
+*Figure 2: Input and Target Data from the UCI Dataset [2].*
 
 # Modelling
 
@@ -71,20 +71,36 @@ model = Sequential([
 
 ### Random Forest
 After creating and running the Random Forest Model it had an accuracy of 88.3%. Here below are the Confusion Matrix for the model and additionally there is the plot of the most impactful input features on the model.
+
 ![Confusion Matrix for Random Forest](assets/rf_cm.png){: width="800"} ![Feature Importance for Random Forest](assets/feature_importance.png){: width="800"}
+
+*Figure 3: Confusion Matrix and Feature Importance for Random Forest.[3]*
+
 Interestingly based on the Feature Importance plot, we see that the two most impactful features in determining whether a patient has heart disease or not are thalach: maximum heart rate achieved and ca: number of major vessels (0-3) colored by fluoroscopy. 
 This indicates that the biggest warning signs that a patient might have cardiovascular disease can be determined mainly by a person’s maximum heart rate achieved and number of major vessels (0-3) colored by fluoroscopy along with any combination of the following features. 
 Below are the ROC (Receiver Operating Characteristic) curve and the Precision-Recall Curve. These plots serve to better visualize the performance of the model.
-![ROC and Precision-Recall Curve for Random Forest](assets/rf_curves.png){: width="800"}
+
+![ROC and Precision-Recall Curves for Random Forest](assets/rf_curves.png){: width="800"}
+
+*Figure 4: ROC and Precision-Recall Curves for Random Forest.[4]*
+
 On the left is the plot of the ROC Curve, and on the right you see the Precision-Recall Curve. 
 These plots help to visualize the performance of a model because of the metrics associated with each plot. For the ROC Curve we have the `AUC` which represents the area under the curve, and for the Precision-Recall Curve we have the `Average Precision` / `(AP)`. Both these metrics are scored on a scale from 0 - 1, the closer to 1 the better especially for Binary Classification tasks such as this one. We see that the `AUC = 0.95` and the `AP = 0.93` which means that the model performed quite well. 
 
 ### ANN
 For the ANN, after creating and testing the model, it had an accuracy of 88%. Below is the Confusion Matrix for the model. 
+
 ![Confusion Matrix for ANN](assets/ann_cm.png){: width="800"}
+
+*Figure 5: Confusion Matrix for ANN.[5]*
+
 When comparing the Confusion Matrices for both models we see that they are indeed quite similar. In both matrices, the false positives/negatives are relatively equal and the correctly predicted negatives and positives are similar as well, which I find to be quite interesting. 
 Now below are the ROC and Precision-Recall Curves for the ANN model.
+
 ![ROC and Precision-Recall Curve for ANN](assets/ann_curves.png){: width="800"}
+
+*Figure 6: ROC and Precision-Recall Curve for ANN.[6]*
+
 Once again the plots follow the same format, the left being the ROC and the right being the Precision-Recall. In comparison to the ROC and Precision-Recall for the Random Forest, the ANN performs slightly worse but not by all that much. The `AUC = 0.94` and the `AP = 0.91`. 
 
 
