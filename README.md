@@ -48,10 +48,9 @@ Finally, in this dataset the target variable has values from 0-4 where 0 symboli
 
 After performing these steps the preprocessing stage has been completed and data is ready to be used to create the models.
 
+![](assets/Uknown.png){: width="700" }
 
-![](assets/IMG/datapenguin.png){: width="500" }
-
-*Figure 1: Here is a caption for my diagram. This one shows a pengiun [1].*
+*Figure 1: Input and Target Data from the UCI Dataset [2].*
 
 # Modelling
 
