@@ -61,7 +61,7 @@ For the ANN I utilized the `Tensorflow` library of python, specifically the kera
 model = Sequential([
    Dense(32, activation='relu', input_shape=(X_train.shape[1],)),  # Input layer
    Dense(64, activation='relu'),  # Hidden layer
-   Dropout(0.5),  # Dropout layer to prevent overfitting
+   Dropout(0.4),  # Dropout layer to prevent overfitting
    Dense(1, activation='sigmoid')  # Output layer for binary classification
 ])
 ```
