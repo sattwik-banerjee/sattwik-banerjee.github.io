@@ -48,7 +48,7 @@ Finally, in this dataset the target variable has values from 0-4 where 0 symboli
 
 After performing these steps the preprocessing stage has been completed and data is ready to be used to create the models.
 
-![](assets/Uknown.png){: width="700" }
+![](assets/Unknown.png){: width="700" }
 
 *Figure 1: Input and Target Data from the UCI Dataset [2].*
 
