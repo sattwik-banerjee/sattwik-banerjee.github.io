@@ -59,6 +59,7 @@ I employed two distinct machine learning models to classify the data in my proje
 A random forest is an ensemble learning method that combines the predictions of several decision trees to improve overall performance. Given that my data set was labeled, this constitutes a supervised learning classification problem. Specifically, I focused on a binary classification task where the model predicts either 0 (indicating 'no heart disease') or 1 (indicating ‘heart 'disease'). Using scikit-learn’s pre-existing library `RandomForestClassifier`, I implemented the Random Forest parameterized with `n_estimators=150`, `max_depth=15`, `min_samples_leaf=2`, `class_weight='balanced'`. 
 
 For the ANN I utilized the `Tensorflow` library of python, specifically the keras interface. In the construction of the ANN, I chose an architecture of two hidden layers and one dropout layer to prevent overfitting configured with ReLU activations 
+
 ```python
 model = Sequential([
    Dense(32, activation='relu', input_shape=(X_train.shape[1],)),  # Input layer
@@ -71,7 +72,7 @@ model = Sequential([
 
 # Results
 
-### Random Forest
+## Random Forest
 After creating and running the Random Forest Model it had an accuracy of 88.3%. Here below are the Confusion Matrix for the model and additionally there is the plot of the most impactful input features on the model.
 
 ![Confusion Matrix for Random Forest](assets/rf_cm.png){: width="400"} ![Feature Importance for Random Forest](assets/feature_importance.png){: width="400"}
@@ -89,7 +90,7 @@ Below are the ROC (Receiver Operating Characteristic) curve and the Precision-Re
 On the left is the plot of the ROC Curve, and on the right you see the Precision-Recall Curve. 
 These plots help to visualize the performance of a model because of the metrics associated with each plot. For the ROC Curve we have the `AUC` which represents the area under the curve, and for the Precision-Recall Curve we have the `Average Precision` / `(AP)`. Both these metrics are scored on a scale from 0 - 1, the closer to 1 the better especially for Binary Classification tasks such as this one. We see that the `AUC = 0.95` and the `AP = 0.93` which means that the model performed quite well. 
 
-### ANN
+## ANN
 For the ANN, after creating and testing the model, it had an accuracy of 88%. Below is the Confusion Matrix for the model. 
 
 ![Confusion Matrix for ANN](assets/ann_cm.png){: width="500"}
@@ -107,9 +108,9 @@ Once again the plots follow the same format, the left being the ROC and the righ
 
 Another metric of understanding the accuracy of a machine learning model is the RMSE (Root Mean Squared Error). This metric is also a value on a scale of 0-1 where the closer to 0 the better the accuracy of your model is. Mathematically the RMSE is calculated as such : 
 
-$$
+$
 RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y_i})^2}
-$$
+$
 
 Using the `mean_squared_error` application from the scikit-learn library and the `sqrt` application from the math library in python, I calculated the RMSE as such for both models.
 
@@ -118,16 +119,16 @@ Using the `mean_squared_error` application from the scikit-learn library and the
 mse = mean_squared_error(y_test, y_pred)
 rmse = sqrt(mse)
 
-
 print("Root Mean Squared Error (RMSE):", rmse)
-
 ```
 
 The RMSE for the Random Forest was 0.342 and for the ANN it was 0.298. Both of these scores are relatively low, indicating an accurate model which is also supported by the ROC and Precision Curves created. 
 
 # Discussion
 
-From Figure X, one can see that... [interpretation of Figure X].
+Although the ANN model has a lower computed RMSE than the Random Forest, based on Figure 4 the Random Forest is shown to be the better model in this scenario although it is not by very much. To say one model is better or far more accurate than the other would be very difficult to say based on the figures above. By comparing the results and accuracy of each model to each other you see there are many more similarities between the two than differences, hence making it difficult to say which one is better for this application than the other. 
+
+The individual performances of each model are exceptional as well as for the Random Forest from Figure 4 having an `AUC = 0.95` and an `AP = 0.93` represents a successfully accurate model. In addition the RMSE for the Random Forest is also low enough to demonstrate that the correlation in accuracy between the predicted values and real values is significant. Additionally for the ANN, from Figure 6 this model has an `AUC = 0.94` and an `AP = 0.91` which are also very good values for those metrics. The RMSE for the ANN model is also significantly low, therefore displaying that there is a high accuracy between the predicted and real values once again. Overall, both the selected models performed very well on performing a Binary Classification on this dataset.
 
 # Conclusion
 
