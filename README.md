@@ -105,6 +105,25 @@ Now below are the ROC and Precision-Recall Curves for the ANN model.
 
 Once again the plots follow the same format, the left being the ROC and the right being the Precision-Recall. In comparison to the ROC and Precision-Recall for the Random Forest, the ANN performs slightly worse but not by all that much. The `AUC = 0.94` and the `AP = 0.91`. 
 
+Another metric of understanding the accuracy of a machine learning model is the RMSE (Root Mean Squared Error). This metric is also a value on a scale of 0-1 where the closer to 0 the better the accuracy of your model is. Mathematically the RMSE is calculated as such : 
+
+$$
+RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y_i})^2}
+$$
+
+Using the `mean_squared_error` application from the scikit-learn library and the `sqrt` application from the math library in python, I calculated the RMSE as such for both models.
+
+```python
+# Calculate MSE and RMSE
+mse = mean_squared_error(y_test, y_pred)
+rmse = sqrt(mse)
+
+
+print("Root Mean Squared Error (RMSE):", rmse)
+
+```
+
+The RMSE for the Random Forest was 0.342 and for the ANN it was 0.298. Both of these scores are relatively low, indicating an accurate model which is also supported by the ROC and Precision Curves created. 
 
 # Discussion
 
