@@ -95,7 +95,7 @@ These plots help to visualize the performance of a model because of the metrics 
 ## ANN
 For the ANN, after creating and testing the model, it had an accuracy of 88%. Below is the Confusion Matrix for the model. 
 
-![Confusion Matrix for ANN](assets/ann_cm.png){: width="500"}
+![Confusion Matrix for ANN](assets/ann_cm.png){: width="600"}
 
 *Figure 5: Confusion Matrix for ANN.[5]*
 
