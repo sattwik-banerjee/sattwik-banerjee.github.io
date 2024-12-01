@@ -77,7 +77,7 @@ model = Sequential([
 ## Random Forest
 After creating and running the Random Forest Model it had an accuracy of 88.3%. Here below are the Confusion Matrix for the model and additionally there is the plot of the most impactful input features on the model.
 
-![Confusion Matrix for Random Forest](assets/rf_cm.png){: width="400"} ![Feature Importance for Random Forest](assets/feature_importance.png){: width="400"}
+![Confusion Matrix for Random Forest](assets/rf_cm.png){: width="600"} ![Feature Importance for Random Forest](assets/feature_importance.png){: width="800"}
 
 *Figure 3: Confusion Matrix and Feature Importance for Random Forest.[3]*
 
