@@ -55,7 +55,9 @@ After performing these steps the preprocessing stage has been completed and data
 # Modelling
 
 I employed two distinct machine learning models to classify the data in my project: a *random forest* and an *artificial neural network* (ANN).
-A random forest is an ensemble learning method that combines the predictions of several decision trees to improve overall performance. Given that my data set was labeled, this constitutes a supervised learning problem. Specifically, I focused on a binary classification task where the model predicts either 0 (indicating 'no heart disease') or 1 (indicating ‘heart 'disease'). Using scikit-learn’s pre-existing library `RandomForestClassifier`, I implemented the Random Forest parameterized with `n_estimators=150`, `max_depth=15`, `min_samples_leaf=2`, `class_weight='balanced'`. 
+
+A random forest is an ensemble learning method that combines the predictions of several decision trees to improve overall performance. Given that my data set was labeled, this constitutes a supervised learning classification problem. Specifically, I focused on a binary classification task where the model predicts either 0 (indicating 'no heart disease') or 1 (indicating ‘heart 'disease'). Using scikit-learn’s pre-existing library `RandomForestClassifier`, I implemented the Random Forest parameterized with `n_estimators=150`, `max_depth=15`, `min_samples_leaf=2`, `class_weight='balanced'`. 
+
 For the ANN I utilized the `Tensorflow` library of python, specifically the keras interface. In the construction of the ANN, I chose an architecture of two hidden layers and one dropout layer to prevent overfitting configured with ReLU activations 
 ```python
 model = Sequential([
