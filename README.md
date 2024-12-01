@@ -72,7 +72,7 @@ model = Sequential([
 ### Random Forest
 After creating and running the Random Forest Model it had an accuracy of 88.3%. Here below are the Confusion Matrix for the model and additionally there is the plot of the most impactful input features on the model.
 
-![Confusion Matrix for Random Forest](assets/rf_cm.png){: width="800"} ![Feature Importance for Random Forest](assets/feature_importance.png){: width="800"}
+![Confusion Matrix for Random Forest](assets/rf_cm.png){: width="400"} ![Feature Importance for Random Forest](assets/feature_importance.png){: width="400"}
 
 *Figure 3: Confusion Matrix and Feature Importance for Random Forest.[3]*
 
@@ -80,7 +80,7 @@ Interestingly based on the Feature Importance plot, we see that the two most imp
 This indicates that the biggest warning signs that a patient might have cardiovascular disease can be determined mainly by a person’s maximum heart rate achieved and number of major vessels (0-3) colored by fluoroscopy along with any combination of the following features. 
 Below are the ROC (Receiver Operating Characteristic) curve and the Precision-Recall Curve. These plots serve to better visualize the performance of the model.
 
-![ROC and Precision-Recall Curves for Random Forest](assets/rf_curves.png){: width="800"}
+![ROC and Precision-Recall Curves for Random Forest](assets/rf_curves.png){: width="1000"}
 
 *Figure 4: ROC and Precision-Recall Curves for Random Forest.[4]*
 
@@ -90,14 +90,14 @@ These plots help to visualize the performance of a model because of the metrics 
 ### ANN
 For the ANN, after creating and testing the model, it had an accuracy of 88%. Below is the Confusion Matrix for the model. 
 
-![Confusion Matrix for ANN](assets/ann_cm.png){: width="800"}
+![Confusion Matrix for ANN](assets/ann_cm.png){: width="500"}
 
 *Figure 5: Confusion Matrix for ANN.[5]*
 
 When comparing the Confusion Matrices for both models we see that they are indeed quite similar. In both matrices, the false positives/negatives are relatively equal and the correctly predicted negatives and positives are similar as well, which I find to be quite interesting. 
 Now below are the ROC and Precision-Recall Curves for the ANN model.
 
-![ROC and Precision-Recall Curve for ANN](assets/ann_curves.png){: width="800"}
+![ROC and Precision-Recall Curve for ANN](assets/ann_curves.png){: width="1000"}
 
 *Figure 6: ROC and Precision-Recall Curve for ANN.[6]*
 
