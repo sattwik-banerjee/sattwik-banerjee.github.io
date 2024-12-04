@@ -16,6 +16,7 @@ December 9, 2024
 Over the past few decades, poor health has risen to be widely acknowledged as one of the main causes of death worldwide and especially in the United States of America. Of the many potential chronic illnesses and diseases, Heart Disease is the leading cause. The usual regimen to fight heart disease is by altering a person’s lifestyle and adding dietary restrictions as often people diagnosed with heart disease have very high levels of cholesterol and blood pressure from a life of unhealthy habits (Jones & Greene, 2013). However the average age of a person diagnosed with heart disease is around 65% for men and 72% for women, with the odds only increasing as time passes (Etudo, 2024). A big question that has been thrown around in the medical field is how can people susceptible to heart disease take preventative care when the average diagnosis age is around ⅔ a person’s life expectancy?
 
 ![](assets/cardiovascular-disease-deaths-by-age-2.png){: width="750" }
+
 *Figure 1: Number of Cardiovascular Deaths by Age Globally.[1]*
 
 One proposed solution to this problem has been deemed to be the implementation of Machine Learning. The field of Machine Learning has been taking the world by storm with the continuous advance in applications of Machine Learning in all aspects of life. As Machine Learning continues to expand its reach, many health care experts believe that with Machine Learning, healthcare can be improved for all, especially in regards to Heart Disease (Baht & Gupta, 2023). In this paper I will explore the application of Machine Learning within the medical field to detect heart disease within a patient.
@@ -154,11 +155,46 @@ Future studies could build upon this and take the process one step further and a
 
 # References
 
-(1) [Etudo, M. (2024, July 22). Heart attack age: Risk by age group. Medical News Today. https://www.medicalnewstoday.com/articles/heart-attack-age-range#:~:text=Statistics%20from%20the%20American%20Heart,attacks%20can%20happen%20to%20anyone](https://www.medicalnewstoday.com/articles/heart-attack-age-range)
-
-(2) [Jones, D. S., & Greene, J. A. (2013, July). The decline and rise of coronary heart disease: Understanding public health catastrophism. American Journal of Public Health. U.S. National Library of Medicine. https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/](https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/)
-
-(3) [Bhatt, C. M., Bansal, S., & Gupta, P. (2023, February 6). Effective heart disease prediction using machine learning techniques. MDPI. https://www.mdpi.com/1999-4893/16/2/88#:~:text=Using%20machine%20learning%20to%20classify,fatality%20caused%20by%20cardiovascular%20diseases](https://www.mdpi.com/1999-4893/16/2/88)
-
-(4) [Our World in Data. (n.d.). Number of deaths from cardiovascular diseases by age. Our World in Data. https://ourworldindata.org/grapher/cardiovascular-disease-deaths-by-age. Accessed November 30, 2024.](https://ourworldindata.org/grapher/cardiovascular-disease-deaths-by-age)
+<table>
+  <tr>
+    <th>#</th>
+    <th>Reference</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>
+      Etudo, M. (2024, July 22). Heart attack age: Risk by age group. Medical News Today. 
+      <a href="https://www.medicalnewstoday.com/articles/heart-attack-age-range#:~:text=Statistics%20from%20the%20American%20Heart,attacks%20can%20happen%20to%20anyone">
+        https://www.medicalnewstoday.com/articles/heart-attack-age-range
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>
+      Jones, D. S., & Greene, J. A. (2013, July). The decline and rise of coronary heart disease: Understanding public health catastrophism. American Journal of Public Health. U.S. National Library of Medicine. 
+      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/">
+        https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>
+      Bhatt, C. M., Bansal, S., & Gupta, P. (2023, February 6). Effective heart disease prediction using machine learning techniques. MDPI. 
+      <a href="https://www.mdpi.com/1999-4893/16/2/88#:~:text=Using%20machine%20learning%20to%20classify,fatality%20caused%20by%20cardiovascular%20diseases">
+        https://www.mdpi.com/1999-4893/16/2/88
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>
+      Our World in Data. (n.d.). Number of deaths from cardiovascular diseases by age. Our World in Data. 
+      <a href="https://ourworldindata.org/grapher/cardiovascular-disease-deaths-by-age">
+        https://ourworldindata.org/grapher/cardiovascular-disease-deaths-by-age
+      </a>. Accessed November 30, 2024.
+    </td>
+  </tr>
+</table>
 
