@@ -155,46 +155,12 @@ Future studies could build upon this and take the process one step further and a
 
 # References
 
-<table>
-  <tr>
-    <th>#</th>
-    <th>Reference</th>
-  </tr>
-  <tr>
-    <td>1</td>
-    <td>
-      Etudo, M. (2024, July 22). Heart attack age: Risk by age group. Medical News Today. 
-      <a href="https://www.medicalnewstoday.com/articles/heart-attack-age-range#:~:text=Statistics%20from%20the%20American%20Heart,attacks%20can%20happen%20to%20anyone">
-        https://www.medicalnewstoday.com/articles/heart-attack-age-range
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>2</td>
-    <td>
-      Jones, D. S., & Greene, J. A. (2013, July). The decline and rise of coronary heart disease: Understanding public health catastrophism. American Journal of Public Health. U.S. National Library of Medicine. 
-      <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/">
-        https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>3</td>
-    <td>
-      Bhatt, C. M., Bansal, S., & Gupta, P. (2023, February 6). Effective heart disease prediction using machine learning techniques. MDPI. 
-      <a href="https://www.mdpi.com/1999-4893/16/2/88#:~:text=Using%20machine%20learning%20to%20classify,fatality%20caused%20by%20cardiovascular%20diseases">
-        https://www.mdpi.com/1999-4893/16/2/88
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>4</td>
-    <td>
-      Our World in Data. (n.d.). Number of deaths from cardiovascular diseases by age. Our World in Data. 
-      <a href="https://ourworldindata.org/grapher/cardiovascular-disease-deaths-by-age">
-        https://ourworldindata.org/grapher/cardiovascular-disease-deaths-by-age
-      </a>. Accessed November 30, 2024.
-    </td>
-  </tr>
-</table>
+   1. **Etudo, M.** (2024, July 22). *Heart attack age: Risk by age group*. Medical News Today. [Link](https://www.medicalnewstoday.com/articles/heart-attack-age-range#:~:text=Statistics%20from%20the%20American%20Heart,attacks%20can%20happen%20to%20anyone)
+
+   2. **Jones, D. S., & Greene, J. A.** (2013, July). *The decline and rise of coronary heart disease: Understanding public health catastrophism*. American Journal of Public Health. U.S. National Library of Medicine. [Link](https://pmc.ncbi.nlm.nih.gov/articles/PMC3682614/)
+
+   3. **Bhatt, C. M., Bansal, S., & Gupta, P.** (2023, February 6). *Effective heart disease prediction using machine learning techniques*. MDPI. [Link](https://www.mdpi.com/1999-4893/16/2/88#:~:text=Using%20machine%20learning%20to%20classify,fatality%20caused%20by%20cardiovascular%20diseases)
+
+   4. **Our World in Data.** (n.d.). *Number of deaths from cardiovascular diseases by age*. Our World in Data. [Link](https://ourworldindata.org/grapher/cardiovascular-disease-deaths-by-age). Accessed November 30, 2024.
+
 
