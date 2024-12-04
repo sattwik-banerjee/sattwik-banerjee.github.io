@@ -71,7 +71,6 @@ model = Sequential([
 ])
 ```
 
-
 # Results
 
 ## Random Forest
@@ -110,9 +109,13 @@ Once again the plots follow the same format, the left being the ROC and the righ
 
 Another metric of understanding the accuracy of a machine learning model is the RMSE (Root Mean Squared Error). This metric is also a value on a scale of 0-1 where the closer to 0 the better the accuracy of your model is. Mathematically the RMSE is calculated as such : 
 
-\
-RMSE = \sqrt{\frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y_i})^2}
-\
+<p>
+
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+
+  \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}.\]
+
+</p>
 
 Using the `mean_squared_error` application from the scikit-learn library and the `sqrt` application from the math library in python, I calculated the RMSE as such for both models.
 
