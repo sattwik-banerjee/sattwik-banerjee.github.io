@@ -111,7 +111,6 @@ Once again the plots follow the same format, the left being the ROC and the righ
 
 Another metric of understanding the accuracy of a machine learning model is the RMSE (Root Mean Squared Error). This metric is also a value on a scale of 0-1 where the closer to 0 the better the accuracy of your model is. Mathematically the RMSE is calculated as such : 
 
-<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
