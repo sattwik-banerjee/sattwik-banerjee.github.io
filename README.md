@@ -120,16 +120,21 @@ Another metric of understanding the accuracy of a machine learning model is the 
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
   <style>
-    p {
-      font-size: 24px;
-      text-align: center;
+    .center-equation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Adjust if you don't want full-screen centering */
+      margin: 0;
     }
   </style>
 </head>
 <body>
-  <p>
-    \(\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2}\)
-  </p>
+  <div class="center-equation">
+    <p>
+      \(\text{RMSE} = \sqrt{\frac{1}{n} \sum_{i=1}^n (y_i - \hat{y}_i)^2}\)
+    </p>
+  </div>
 </body>
 </html>
 
