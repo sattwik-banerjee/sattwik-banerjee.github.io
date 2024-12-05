@@ -120,13 +120,6 @@ Another metric of understanding the accuracy of a machine learning model is the 
           src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
   <style>
-    body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      margin: 0;
-    }
     p {
       font-size: 24px;
       text-align: center;
