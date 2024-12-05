@@ -28,7 +28,7 @@ The goal is to predict whether an individual has heart disease based on these fe
 
 The input variables present in this dataset are age, sex, chest pain type, resting blood pressure, serum cholesterol, fasting blood sugar, resting electrocardiographic results, maximum heart rate achieved, exercise-induced angina, ST depression, slope of the peak exercise ST segment, number of major vessels, and thalassemia. During the modeling process not all these features will be used to create the models, however they are all a part of the process to prepare the data.
 
-##Preparing the Data
+## Preparing the Data
 
 To be able to create the best model and prediction possible, the data must first go through a “preprocessing” stage. In this stage the data is cleaned, meaning that the dataset is thoroughly checked for any and all values that would reduce the accuracy of the Machine Learning Model. For this particular dataset, my preprocessing step began with checking for missing or empty values in the dataset using the command 
 ```python
