@@ -124,7 +124,6 @@ Another metric of understanding the accuracy of a machine learning model is the 
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 100vh; /* Adjust if you don't want full-screen centering */
       margin: 0;
     }
   </style>
