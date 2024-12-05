@@ -135,7 +135,6 @@ Another metric of understanding the accuracy of a machine learning model is the 
   </div>
 </body>
 </html>
-
 Using the `mean_squared_error` application from the scikit-learn library and the `sqrt` application from the math library in python, I calculated the RMSE as such for both models.
 
 ```python
