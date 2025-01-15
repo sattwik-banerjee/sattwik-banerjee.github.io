@@ -1,4 +1,6 @@
-# Detecting Heart Disease with with Random Forrest and Artificial Neural Network
+---
+title: "Detecting Heart Disease with with Random Forrest and Artificial Neural Network"
+---
 
 # Introduction 
 
