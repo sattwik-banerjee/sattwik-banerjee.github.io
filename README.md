@@ -1,5 +1,3 @@
-# Detecting Heart Disease with Random Forrest and Neural Network
-
 # Introduction 
 
 Over the past few decades, poor health has risen to be widely acknowledged as one of the main causes of death worldwide and especially in the United States of America. Of the many potential chronic illnesses and diseases, Heart Disease is the leading cause. The usual regimen to fight heart disease is by altering a person’s lifestyle and adding dietary restrictions as often people diagnosed with heart disease have very high levels of cholesterol and blood pressure from a life of unhealthy habits (Jones & Greene, 2013). However the average age of a person diagnosed with heart disease is around 65 for men and 72 for women, with the odds only increasing as time passes (Etudo, 2024). A significant question frequently discussed in the medical field is how individuals at risk for heart disease can take preventative measures, considering the average diagnosis occurs around the average person's life expectancy?
