@@ -1,15 +1,4 @@
-# Final Project : Detecting Heart Disease with Random Forrest and Neural Network
-
-Sattwik Banerjee
-
-Department of Atmospheric and Oceanic Sciences, UCLA
-
-AOS C111: Introduction to Machine Learning for the Physical Sciences
-
-Dr. Alexander Lozinski
-
-December 9, 2024
-
+# Detecting Heart Disease with Random Forrest and Neural Network
 
 # Introduction 
 
