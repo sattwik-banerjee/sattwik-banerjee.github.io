@@ -1,8 +1,4 @@
----
-title: "Detecting Heart Disease with with Random Forrest and Artificial Neural Network"
----
-
-# Introduction 
+## Introduction 
 
 Over the past few decades, poor health has risen to be widely acknowledged as one of the main causes of death worldwide and especially in the United States of America. Of the many potential chronic illnesses and diseases, Heart Disease is the leading cause. The usual regimen to fight heart disease is by altering a person’s lifestyle and adding dietary restrictions as often people diagnosed with heart disease have very high levels of cholesterol and blood pressure from a life of unhealthy habits (Jones & Greene, 2013). However the average age of a person diagnosed with heart disease is around 65 for men and 72 for women, with the odds only increasing as time passes (Etudo, 2024). A significant question frequently discussed in the medical field is how individuals at risk for heart disease can take preventative measures, considering the average diagnosis occurs around the average person's life expectancy?
 
@@ -12,14 +8,14 @@ Over the past few decades, poor health has risen to be widely acknowledged as on
 
 One proposed solution to this problem has been deemed to be the implementation of Machine Learning. The field of Machine Learning has been taking the world by storm with the continuous advance in applications of Machine Learning in all aspects of life. As Machine Learning continues to expand its reach, many health care experts believe that with Machine Learning, healthcare can be improved for all, especially in regards to Heart Disease (Baht & Gupta, 2023). In this paper I will explore the application of Machine Learning within the medical field to detect heart disease within a patient.
 
-# Data
+## Data
 
 The dataset used in this analysis is the Heart Disease Dataset, sourced from the UCI MachineLearning Repository. This dataset contains records from individuals undergoing clinical testing for heart disease. It includes 13 features related to patient demographics, medical history, and clinical measurements, alongside a target variable indicating the presence or absence of heart disease.
 The goal is to predict whether an individual has heart disease based on these features, using machine learning techniques.
 
 The input variables present in this dataset are age, sex, chest pain type, resting blood pressure, serum cholesterol, fasting blood sugar, resting electrocardiographic results, maximum heart rate achieved, exercise-induced angina, ST depression, slope of the peak exercise ST segment, number of major vessels, and thalassemia. During the modeling process not all these features will be used to create the models, however they are all a part of the process to prepare the data.
 
-## Preparing the Data
+### Preparing the Data
 
 To be able to create the best model and prediction possible, the data must first go through a “preprocessing” stage. In this stage the data is cleaned, meaning that the dataset is thoroughly checked for any and all values that would reduce the accuracy of the Machine Learning Model. For this particular dataset, my preprocessing step began with checking for missing or empty values in the dataset using the command 
 ```python
@@ -46,7 +42,7 @@ After performing these steps the preprocessing stage has been completed and data
 
 *Figure 2: Input and Target Data from the UCI Dataset [2].*
 
-# Modelling
+## Modelling
 
 I employed two distinct machine learning models to classify the data in my project: a *random forest* and an *artificial neural network* (ANN).
 
@@ -64,9 +60,9 @@ model = Sequential([
 ```
 These models were chosen because of their performance in Supervised Binary Classification compared to other Machine Learning Models.
 
-# Results
+## Results
 
-## Random Forest
+### Random Forest
 After creating and running the Random Forest Model it had an accuracy of 88.3%. Here below are the Confusion Matrix for the model and additionally there is the plot of the most impactful input features on the model.
 
 ![Confusion Matrix for Random Forest](assets/rf_cm.png){: width="600"} ![Feature Importance for Random Forest](assets/feature_importance.png){: width="800"}
@@ -84,7 +80,7 @@ Below are the ROC (Receiver Operating Characteristic) curve and the Precision-Re
 On the left is the plot of the ROC Curve, and on the right you see the Precision-Recall Curve. 
 These plots help to visualize the performance of a model because of the metrics associated with each plot. For the ROC Curve we have the `AUC` which represents the area under the curve, and for the Precision-Recall Curve we have the `Average Precision` / `(AP)`. Both these metrics are scored on a scale from 0 - 1, the closer to 1 the better especially for Binary Classification tasks such as this one. We see that the `AUC = 0.95` and the `AP = 0.93` which means that the model performed quite well. 
 
-## ANN
+### ANN
 For the ANN, after creating and testing the model, it had an accuracy of 88%. Below is the Confusion Matrix for the model. 
 
 ![Confusion Matrix for ANN](assets/ann_cm.png){: width="600"}
@@ -132,13 +128,13 @@ print("Root Mean Squared Error (RMSE):", rmse)
 
 The RMSE for the Random Forest was 0.342 and for the ANN it was 0.298. Both of these scores are relatively low, indicating an accurate model which is also supported by the ROC and Precision Curves created. 
 
-# Discussion
+## Discussion
 
 Although the ANN model has a lower computed RMSE than the Random Forest, based on Figure 4 the Random Forest is shown to be the better model in this scenario although it is not by very much. To say one model is better or far more accurate than the other would be very difficult to say based on the figures above. By comparing the results and accuracy of each model to each other you see there are many more similarities between the two than differences, hence making it difficult to say which one is better for this application than the other. 
 
 The individual performances of each model are exceptional as well as for the Random Forest from Figure 4 having an `AUC = 0.95` and an `AP = 0.93` represents a successfully accurate model. In addition the RMSE for the Random Forest is also low enough to demonstrate that the correlation in accuracy between the predicted values and real values is significant. Additionally for the ANN, from Figure 6 this model has an `AUC = 0.94` and an `AP = 0.91` which are also very good values for those metrics. The RMSE for the ANN model is also significantly low, therefore displaying that there is a high accuracy between the predicted and real values once again. Overall, both the selected models performed very well on performing a Binary Classification on this dataset.
 
-# Conclusion
+## Conclusion
 
 In this paper, various machine learning models were developed to determine whether a patient has heart disease depending on 13 features relating to each individual patient. The models selected to perform the Binary Classification task within this dataset were a Random Forest and an Artificial Neural Network. These models were developed using Python’s Scikit-Learn and Tensorflow libraries, and they were evaluated by utilizing the ROC Curve, Precision-Recall Curve, and the Root Mean Squared Error. 
 
@@ -146,7 +142,7 @@ After evaluating the models based on the three calculated metrics we see that in
 
 Future studies could build upon this and take the process one step further and apply Deep Learning Techniques to images of Hearts in combination with the development of a more accurate Machine Learning Model. Additionally, after more time has passed and more data has been accumulated, given more factors could lead to a more extensive analysis on important factors that have the most effect on a patient’s diagnosis.  
 
-# References
+## References
 
    1. **Etudo, M.** (2024, July 22). *Heart attack age: Risk by age group*. Medical News Today. [Link](https://www.medicalnewstoday.com/articles/heart-attack-age-range#:~:text=Statistics%20from%20the%20American%20Heart,attacks%20can%20happen%20to%20anyone)
 
