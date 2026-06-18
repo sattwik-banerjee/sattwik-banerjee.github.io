@@ -154,6 +154,7 @@ body {
     position: absolute;
     inset: 0;
     z-index: 0;
+    overflow: hidden;
     background: linear-gradient(135deg, #2d1f0e 0%, #3d2810 25%, #5c3520 50%, #3a2d1a 75%, #1e1510 100%);
 }
 
@@ -163,6 +164,8 @@ body {
     filter: blur(80px);
     opacity: 0.5;
     animation: blobFloat 8s ease-in-out infinite;
+    transform: translateZ(0);
+    will-change: transform;
 }
 
 .blob-1 {
