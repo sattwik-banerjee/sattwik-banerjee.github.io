@@ -1095,6 +1095,11 @@ body {
    RESPONSIVE — TABLET (≤1024px)
 ================================ */
 @media (max-width: 1024px) {
+    .blob {
+        filter: blur(50px);
+        opacity: 0.35;
+    }
+
     #navbar {
         padding: 1rem 2rem;
     }
@@ -1133,6 +1138,10 @@ body {
    RESPONSIVE — MOBILE (≤768px)
 ================================ */
 @media (max-width: 768px) {
+    /* Blobs — replace blur with hidden to kill square artifacts on mobile */
+    .blob {
+        display: none;
+    }
     /* Nav */
     #navbar {
         padding: 0.875rem 1.25rem;
